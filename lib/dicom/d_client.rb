@@ -232,7 +232,9 @@ module DICOM
         "0010,0010" => "",  # Patient's Name
         "0010,0020" => "",  # Patient ID
         "0020,000D" => "",  # Study Instance UID
-        "0020,0010" => ""  # Study ID
+        "0020,0010" => "",  # Study ID
+        "0008,0061" => "",  # Modalities study
+        "0008,0090" => ""   # ReferringPhysicianName
       }
       # Raising an error if a non-tag query attribute is used:
       query_params.keys.each do |tag|
