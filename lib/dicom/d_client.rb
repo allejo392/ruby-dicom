@@ -236,6 +236,11 @@ module DICOM
         "0008,0061" => "",  # Modalities study
         "0032,1040" => "",  #	StudyArrivalDate
         "0008,0022"	=> "",  # AcquisitionDate
+        "0010,1010" => "",  # Patient Age
+        "0020,0011" => "",  # Series number
+        "0020,0013" => "",  # Instance Number
+        "0010,0030" => "",  # Birth date
+        "0010,0040" => ""   # Sex
       }
       # Raising an error if a non-tag query attribute is used:
       query_params.keys.each do |tag|
