@@ -1,7 +1,8 @@
 module DICOM
 
   # Ruby DICOM's registered DICOM UID root (Implementation Class UID).
-  UID_ROOT = "1.2.826.0.1.3680043.8.641"
+  #UID_ROOT = "1.2.826.0.1.3680043.8.641"
+  UID_ROOT = "1.2.276.0.7238010.5.0.3.5.4"
   # Ruby DICOM name & version (max 16 characters).
   NAME = "RUBY-DCM_" + DICOM::VERSION
 
