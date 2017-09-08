@@ -242,8 +242,7 @@ module DICOM
         "0020,0011" => "",  # Series number
         "0020,0013" => "",  # Instance Number
         "0010,0030" => "",  # Birth date
-        "0010,0040" => "",  # Sex
-        "0008,0030" => ""   # Study Hour
+        "0010,0040" => ""  # Sex
       }
       # Raising an error if a non-tag query attribute is used:
       query_params.keys.each do |tag|
